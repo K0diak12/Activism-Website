@@ -549,3 +549,10 @@ button::before {
 button:hover::before {
   transform: translate(4px, -50%);
 }
+#log-in {
+  display: block;
+}
+
+#sign-up {
+  display: block;
+}
