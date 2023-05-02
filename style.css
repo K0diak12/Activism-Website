@@ -1,0 +1,551 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+button {
+  background-color: #00d1b9;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.hover-grow:hover {
+  transform: scale
+}
+.center-image {
+  display: block;
+  margin: auto;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.social-icon {
+ margin-left: 20px; /* adjust as needed */
+  width: 30px;
+  height: 30px;
+  
+}
+
+
+.watch {
+  text-align: left;
+  margin-left: 0% !important;
+  color: #edf2f2;
+  border: 2px solid snow;
+  padding: 10px;
+  float: left;
+  width: 30%;
+  background-color: #4296d7;
+}
+body.dark-mode .watch{
+  background-color: cadetblue;
+}
+
+.individuals {
+  color: #000000;
+}
+
+.according {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.divider {
+  width: 70%;
+  height: 1px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.video-column {
+  float: center;
+  width: 30%;
+}
+
+/* Articles */
+.articles {
+  padding: 50px;
+  
+}
+
+.article-link {
+  display: block;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.article {
+  background-color: #4296d7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  color: white;
+}
+
+.article:hover {
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2);
+  
+}
+.article {
+  transition: transform 0.2s ease-in-out;
+}
+
+.article:hover {
+  transform: scale(1.05);
+}
+.article-title {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.article-summary {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.article-source {
+  font-style: italic;
+  color: white;
+}
+.parent-element {
+  /* styles for parent element */
+}
+
+.line {
+  /* styles for line */
+}
+
+.green {
+  color: green;
+}
+
+#aboutweek {
+  font-style: italic;
+  color: white
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: aliceblue;
+}
+/* Header */
+.header-container {
+  display: flex;
+  margin-top: 5px;
+  border-top: 5px solid darkslategray;
+  padding: 20px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #14a0b3;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.header-item:nth-of-type(1) {
+  float: left;
+}
+
+.header-item:nth-of-type(2) {
+  float: right;
+}
+
+.social-icons {
+  float: right;
+}
+
+.social-icon {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.header-button {
+  background-color: #4296d7;
+  color: #f7f3f3;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+  width: 35%;
+}
+
+.header-right {
+  float: right;
+  width: 65%;
+}
+
+.header-img {
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 50%;
+}
+
+.header-button {
+  background-color: aliceblue
+}
+
+body.dark-mode header {
+  /* Dark mode styles */
+  background-color: white; /* Change this to the background color you want to use in dark mode */
+  color: black;
+}
+/* Footer */
+
+.footer {
+  position: relative;
+  display: flow-root;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+}
+
+body.dark-mode footer {
+  background-color: black;
+  color: white;
+}
+/* dark mode transition*/
+
+body {
+  transition: background-color 0.8s ease-in-out;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  padding: 10px;
+
+  
+}
+
+
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(76, 20, 179, 0.8);
+  height: 50px;
+  z-index: 9999;
+  backdrop-filter: blur(5px); 
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar li {
+  margin-left: 10px;
+}
+
+.navbar li:first-child {
+  margin-left: 0;
+}
+
+.navbar li a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  transition:all 0.3s eas-in-out;
+  color: #000000;
+  text-align: left;
+  padding: 20px;
+
+}
+
+.navbar li a:hover {
+  color: #16cabe;
+  background-color: #cbe4ec;
+}
+
+.navbar-left {
+  float: left;
+  width: 150px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.navbar-icon {
+  width: 50px;
+  height: 50px;
+  
+}
+
+#theme-button i {
+  display: flex;
+  margin-right: auto;
+}
+
+/* darkmode */
+.dark-mode
+{
+  background-color:#333333;
+  color: white;
+  
+}
+
+/* Add style to button */
+#theme-button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+  cursor: pointer;
+  margin-right: 10px;
+  /* Add background images */
+  background-image: url("img/sun-icon-vector.webp"); /* Change this to the path of your light mode button image */
+}
+
+#theme-button.dark-mode {
+  /* Change the button image in dark mode */
+  background-image: url("img/img_222247.webp"); /* Change this to the path of your dark mode button image */
+}
+
+button img {
+  width: 20px; /* set the desired width of the image */
+  height: 20px; /* set the desired height of the image */
+  display: flex; /* hide the image element */
+}
+
+.petition {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.petition h2 {
+  font-size: 24px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.petition-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.petition-para {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.signatures {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.signatures p {
+  margin: 5px 0;
+}
+
+#sign-petition label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#sign-petition input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+#sign-now-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#sign-now-button:hover {
+  background-color: #3e8e41;
+}
+.dark-mode #petition {
+  background-color: #333333;
+  color: white;
+}
+.dark-mode #sign-petition {
+  background-color: #333333;
+  color: white;
+}
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+/*scroll animation*/ 
+/* Set initial styles for revealable sections */
+.section.revealable {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Add active styles when the section is visible in the viewport */
+.section.revealable.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+ /* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: lightsteelblue; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#close-modal-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#close-modal-button:hover {
+  background-color: #0062cc;
+}
+
+/* button animation with minimal transition*/ 
+button {
+  position: relative;
+  padding-right: 24px;
+  background-color: white;
+  color:  #4c14b3;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button::before {
+  content: '>';
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.2s ease-out;
+}
+
+button:hover::before {
+  transform: translate(4px, -50%);
+}
