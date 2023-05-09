@@ -130,6 +130,7 @@ body.dark-mode .watch{
 }
 .parent-element {
   /* styles for parent element */
+  
 }
 
 .line {
@@ -555,4 +556,15 @@ button:hover::before {
 
 #sign-up {
   display: block;
+}
+
+/* image center fix */
+img {
+display: block;
+margin: auto;
+}
+
+/* default centered paragraph spacing */
+p {
+  text-align: center;
 }
